@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "FastClip",
+    "slug": "fastclip",
+    "scheme": "fastclip",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.fastclip.app"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow FastClip to access your camera to record clips."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow FastClip to access your photos to import b-roll."
+        }
+      ]
+    ]
+  }
+}
